@@ -1,6 +1,6 @@
 # Quiz Application
 
-This project is a web-based quiz application with gamification features, built using React and styled with Tailwind CSS. It fetches quiz data from a provided API endpoint and presents it through an intuitive and engaging user interface.
+This project is a web-based quiz application with gamification features, built using Nextjs and styled with Tailwind CSS. It fetches quiz data from a provided API endpoint and presents it through an intuitive and engaging user interface.
 
 ## Project Overview
 
@@ -61,6 +61,26 @@ The application features a badge system to reward users for their achievements. 
 
     This will start the development server and open the application in your browser.
 
+## Implementation Details
+
+This section provides a brief overview of how the new features were implemented.
+
+### Timer
+
+A timer was implemented using React's `useState` and `useEffect` hooks. The timer starts when a question is displayed and counts down. If the time runs out, the answer is considered incorrect.
+
+### Streak Counter
+
+The streak counter is maintained using a state variable that increments when the user answers correctly and resets to zero when they answer incorrectly.
+
+### Badges
+
+Badges are managed using the `badgeCriteria` object (defined in `src/badgeCriteria.js`), which defines the criteria for each badge. The application checks these criteria during gameplay and awards badges accordingly. The awarded badges are then displayed on the results screen.
+
+## Live Demo
+
+[https://testline-quiz-app.vercel.app](https://testline-quiz-app.vercel.app/)
+
 ## Screenshots
 
 - Screenshot 1: Quiz Interface
@@ -77,19 +97,3 @@ The application features a badge system to reward users for their achievements. 
 ## Video Walkthrough
 
 <a href="https://drive.google.com/file/d/1xzcv5XOBm_cGyZDk-vdHTl0-JIw-an3a/view?usp=sharing" target="_blank">Video Walkthrough</a>
-
-## Implementation Details
-
-This section provides a brief overview of how the new features were implemented.
-
-### Timer
-
-A timer was implemented using React's `useState` and `useEffect` hooks. The timer starts when a question is displayed and counts down. If the time runs out, the answer is considered incorrect.
-
-### Streak Counter
-
-The streak counter is maintained using a state variable that increments when the user answers correctly and resets to zero when they answer incorrectly.
-
-### Badges
-
-Badges are managed using the `badgeCriteria` object (defined in `src/badgeCriteria.js`), which defines the criteria for each badge. The application checks these criteria during gameplay and awards badges accordingly. The awarded badges are then displayed on the results screen.
