@@ -43,7 +43,7 @@ The application features a badge system to reward users for their achievements. 
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/](https://github.com/)[ArijitPatra2906]/[your-repo-name].git
+    git clone https://github.com/ArijitPatra2906/quiz-app
     cd quiz-app
     ```
 
@@ -56,7 +56,7 @@ The application features a badge system to reward users for their achievements. 
 3.  **Start the Development Server:**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     This will start the development server and open the application in your browser.
