@@ -89,9 +89,9 @@ Badges are managed using the `badgeCriteria` object (defined in `src/badgeCriter
   ![Question and Answer (Correct)](screenshots/correct.png)
 - Screenshot 3: Question and Answer (Incorrect)
   ![Question and Answer (Incorrect)](screenshots/incorrect.png)
-- Screenshot 4: Results Screen with Badges
+- Screenshot 4: Quiz Screen with Badges
   ![Quiz Screen with Badges](screenshots/badge.png)
-- Screenshot 4: Results Screen with score
+- Screenshot 5: Results Screen with score
   ![Results Screen with Badges](screenshots/result.png)
 
 ## Video Walkthrough
